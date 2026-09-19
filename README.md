@@ -254,7 +254,7 @@ Navigate to http://localhost:4040 and check:
 ```
 === Executor Memory Analysis ===
 Executor ID: 1
-  Status: ✅ Completed /  Failed (OOM)
+  Status:  Completed /  Failed (OOM)
   Peak Memory: 7.2 GB / 8.0 GB (90%)
   Shuffle Read: 12.5 GB
   Shuffle Write: 8.3 GB
@@ -264,7 +264,7 @@ Executor ID: 1
   Tasks Failed: 0 / 250
 ```
 
-## 🎯 Production Config (r7g.12xlarge baseline)
+##   Config
 
 ```bash
 spark-submit \
